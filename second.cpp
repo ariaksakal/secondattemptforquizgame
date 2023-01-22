@@ -21,26 +21,29 @@ int main() {
         if (answer == 'A') {
             printf("Correct");
             total += 10;
+            correct += 1;
         } else {
             printf("Wrong");
             total += 0;
-        }
+            false += 1;
+        }f
         printf("Which year is google invented?\n");
         printf("A)1989\nB)1990\nC)1991\nD)1988");
         scanf(" %c", &answer);
         if (answer == 'A') {
             printf("Correct");
             total += 10;
+            correct += 1;
         } else {
             printf("Wrong");
             total += 0;
+            false += 1;
         }
         printf("QUIZ IS END YOUR TOTAL SCORE IS %d", total);
         break;
 
     }
 }
-
 
 
 
